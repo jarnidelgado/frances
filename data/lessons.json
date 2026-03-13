@@ -1,0 +1,30 @@
+{
+  "lessonA": {
+    "id": "lesson-a",
+    "title": "L'INDUCTION — Lección A",
+    "vocab": [
+      { "word": "Bonjour", "trans": "Buenos días / Hola", "phon": "bon-zhur", "emoji": "👋" },
+      { "word": "Salut", "trans": "Hola (informal)", "phon": "sa-lu", "emoji": "🙋" },
+      { "word": "Au revoir", "trans": "Adiós", "phon": "o rre-vuar", "emoji": "👋🏻" },
+      { "word": "Je m'appelle Kyoko", "trans": "Me llamo Kyoko", "phon": "shə ma-pel kyoko", "emoji": "🙋‍♀️" }
+    ],
+    "examples": [
+      { "id": "ex1", "text": "Je m'appelle Kyoko.", "notes": "Presentarte", "emoji": "🧑‍🎓" },
+      { "id": "ex2", "text": "J'ai vingt ans.", "notes": "Decir edad", "emoji": "🎂" }
+    ],
+    "listening": [
+      { "id": "lst1", "text": "Bonjour! Je m'appelle Kyoko." },
+      { "id": "lst2", "text": "Je suis japonaise. J'habite à Yokohama." }
+    ],
+    "exercises": {
+      "fill": [
+        { "id": "f1", "prompt": "Comment vous appelez-vous? Je m'appelle ____.", "answers": ["kyoko"] },
+        { "id": "f2", "prompt": "Quel âge avez-vous? J'ai ____ ans.", "answers": ["20", "vingt"] }
+      ],
+      "drag": [
+        { "id": "d1", "sentence": "Je m'appelle Kyoko.", "words": ["Je", "m'appelle", "Kyoko."] },
+        { "id": "d2", "sentence": "J'ai vingt ans.", "words": ["J'ai", "vingt", "ans."] }
+      ]
+    }
+  }
+}
