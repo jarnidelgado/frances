@@ -1,0 +1,23 @@
+/* styles/Home.module.css */
+.container{max-width:1000px;margin:18px auto;padding:12px;font-family:Nunito,system-ui}
+.header{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+.logo{width:70px;height:70px;border-radius:14px;background:linear-gradient(135deg,#ff6b6b,#6b9bff);display:flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:26px}
+.muted{color:#6b7280}
+.controls{display:flex;gap:12px;align-items:center;margin-bottom:10px}
+.small{font-size:13px;color:#6b7280}
+.range{width:200px}
+.card{background:white;border-radius:16px;padding:12px;box-shadow:0 8px 24px rgba(16,24,40,0.06)}
+.accHead{display:flex;align-items:center;justify-content:space-between;padding:10px;border-radius:12px;margin-top:8px;cursor:pointer;transition:box-shadow .12s, transform .12s}
+.accHead:hover{box-shadow:0 6px 18px rgba(16,24,40,0.06);transform:translateY(-2px)}
+.accBody{padding:10px 6px;border-top:1px solid #f5f6fb}
+.vocabRow{display:flex;gap:12px;align-items:center;padding:8px 0;border-bottom:1px dashed #f0f2fa}
+.emoji{font-size:28px;width:48px;text-align:center}
+.word{font-weight:700}
+.phon{font-size:13px;color:#444}
+.play{background:#6b9bff;border:none;border-radius:10px;padding:8px;cursor:pointer;color:white}
+.exampleRow{padding:8px 0;border-bottom:1px dashed #f7f7fb}
+.listenRow{display:flex;justify-content:space-between;align-items:center;padding:8px 0}
+.bigBtn{background:#ff6b6b;color:white;border:none;padding:10px 12px;border-radius:10px;cursor:pointer}
+.wordPill{display:inline-block;padding:8px 10px;background:#fff;border-radius:999px;border:1px solid #e6eafc;margin:6px;cursor:grab}
+.dropArea{min-height:64px;padding:8px;border-radius:12px;border:2px dashed #e6edf8;background:#fbfdff}
+.footer{margin-top:14px;color:#9aa1b2}
